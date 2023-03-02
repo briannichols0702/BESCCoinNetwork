@@ -73,6 +73,6 @@
       "0x0000000000000000000000000000000000000007": { "builtin": { "name": "alt_bn128_mul", "pricing": { "0": { "price": { "alt_bn128_const_operations": { "price": 4000 } } }, "0x65": { "info": "EIP-1108 Istanbul HF", "price": { "alt_bn128_const_operations": { "price": 6000 } } } } } },
       "0x0000000000000000000000000000000000000008": { "builtin": { "name": "alt_bn128_pairing", "pricing": { "0": { "price": { "alt_bn128_pairing": { "base": 100000, "pair": 80000 } } }, "0x65": { "info": "EIP-1108 Istanbul HF", "price": { "alt_bn128_pairing": { "base": 45000, "pair": 34000 } } } } } },
       "0x0000000000000000000000000000000000000009": { "builtin": { "name": "blake2_f", "pricing": { "0x65": { "info": "EIP-152 Istanbul HF", "price": { "blake2_f": { "gas_per_round": 1 } } } } } },
-      "0x49Fd937D559Af5C6CB133b1B5A48cBB02aeD445f": { "balance": "1000000000000000000" }
+      "0x49Fd937D559Af5C6CB133b1B5A48cBB02aeD445f": { "balance": "1000000000000000000000000" }
   }
 }
