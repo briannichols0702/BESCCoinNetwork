@@ -1,0 +1,1 @@
+nohup ./scripts/run.sh > app.log 2>&1 &
