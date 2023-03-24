@@ -32,10 +32,9 @@ reseal_on_txs = "none"
 4. Run the authority nodes
 ```
 ./openethereum --config ./nodes/validator/node.toml
-
+```
 After Running the script successfully you will see you address in the health site https://status.bescscan.io
 
-```
 5. Stake
 
     Stake
