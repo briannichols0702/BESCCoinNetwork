@@ -5,7 +5,8 @@ contract Migrations {
     uint public last_completed_migration; // solhint-disable-line
 
     modifier restricted() {
-        if (msg.sender == owner) _;
+        require(msg.sender == owner); 
+        _;
     }
 
     constructor() public {
